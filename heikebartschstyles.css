@@ -1,0 +1,131 @@
+﻿body {
+    margin: 10px;
+    color: #ff0000;
+    font-family: "Orbitron", 'Franklin Gothic';
+    font-style: italic;
+    font-size: 20px;
+    background-color: #FFFF00;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: #ffff00;
+    height: 100px;
+}
+
+#background-video {
+    opacity: 0.9;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: -20px;
+    width: 110%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.audioalign {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 78.85%;
+    top: 14px;
+}
+
+.nav-wrapper {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.right-side {
+    text-align: right;
+    font-family: "Berkshire Swash";
+}
+
+.container {
+}
+
+
+.nav-link-wrapper {
+    display: flex;
+    border-bottom: 14px solid transparent;
+    transition: border-bottom 1s;
+    height: 11px;
+    width:150px;
+}
+.nav-link-wrapper a {
+        text-decoration: none;
+        color: #FF0000;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+.nav-link-wrapper:hover {
+        border-bottom: 1px solid #302825;
+}
+.nav-link-wrapper a:hover {
+        text-decoration: underline;
+        color:#302825
+}
+
+
+
+        .logo-wrapper {
+    position: fixed;
+    margin: 20px;
+    padding: 100px;
+    width: 100px;
+}
+
+.comments {
+    font-size: 10px;
+    font-family: 'Juice ITC';
+}
+
+
+.DatesWrapper {
+    left: 200px;
+    font-family: 'Franklin Gothic';
+    margin: 200px;
+    font-size: 100px;
+}
+.home {
+
+    font-size: 25px;
+    display: flex;
+    border-bottom: 14px solid transparent;
+    transition: border-bottom 1s;
+    text-align: right;
+    width: 90%;
+    height: 11px;
+}
+    .home a {
+        text-decoration: none;
+        color: #ff0000;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+    .home:hover {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .home a:hover {
+        text-decoration: underline;
+        color: #FFFFFF;
+    }
+
+.logo-wrapper {
+    position: relative;
+    left: 200px;
+    opacity: 1;
+img-text-wrapper {
+    width: 200px;
+}
