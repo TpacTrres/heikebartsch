@@ -129,4 +129,5 @@
 }
 .img-text-wrapper {
     width: 200px;
+    z-index: 4;
 }
