@@ -126,6 +126,6 @@
     position: relative;
     left: 200px;
     opacity: 1;
-img-text-wrapper {
+.img-text-wrapper {
     width: 200px;
 }
