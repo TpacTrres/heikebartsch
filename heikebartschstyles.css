@@ -53,10 +53,6 @@
     font-family: "Berkshire Swash";
 }
 
-.container {
-}
-
-
 .nav-link-wrapper {
     display: flex;
     border-bottom: 14px solid transparent;
@@ -87,12 +83,6 @@
     padding: 10px;
     width: 100px;
 }
-
-.comments {
-    font-size: 10px;
-    font-family: 'Juice ITC';
-}
-
 
 .DatesWrapper {
     left: 200px;
@@ -134,5 +124,4 @@
 }
 .img-text-wrapper {
     align itmes: left;
-    z-index: 4;
 }
