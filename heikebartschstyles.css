@@ -12,9 +12,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
+    width: 110 vhs;
     background: #ffff00;
     height: 100px;
+     overflow: hidden;
 }
 
 #background-video {
@@ -46,6 +47,8 @@
 }
 
 .right-side {
+    padding: 40px;
+    left: 20px;
     text-align: center;
     font-family: "Berkshire Swash";
 }
