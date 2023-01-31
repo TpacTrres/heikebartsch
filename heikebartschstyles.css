@@ -105,7 +105,7 @@
     font-size: 25px;
     display: flex;
     border-bottom: 14px solid transparent;
-    transition: border-bottom 1s;
+    transition: border bottom 1s;
     text-align: right;
     width: 90%;
     height: 11px;
@@ -126,11 +126,13 @@
     }
 
 .logo-wrapper {
+    align items: left;
     position: relative;
     left: 10px;
     opacity: 1;
 }
 .img-text-wrapper {
-    width: 200px;
+    align itmes: left;
+    width: 110vhs;
     z-index: 4;
 }
