@@ -129,10 +129,10 @@
     align items: left;
     position: relative;
     left: 10px;
+        width: 110vhs;
     opacity: 1;
 }
 .img-text-wrapper {
     align itmes: left;
-    width: 110vhs;
     z-index: 4;
 }
