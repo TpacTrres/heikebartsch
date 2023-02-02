@@ -1,5 +1,6 @@
 ﻿body {
-    margin: 10px;
+    margin: 0px;
+    padding: 0px;
     color: #ff0000;
     font-family: "Orbitron", 'Franklin Gothic';
     font-style: italic;
@@ -47,10 +48,11 @@
 }
 
 .right-side {
-    padding: 40px;
-    position: relative;
-    left: 140px;
-    top: 40px;
+    position: sticky;
+    padding: 0px;
+    margin: 0px;
+    left: 40%;
+    top: 62px;
     text-align: center;
     font-family: "Berkshire Swash";
 }
@@ -77,13 +79,16 @@
         color:#302825
 }
 
-
-
-        .logo-wrapper {
-    position: fixed;
-    margin: 20px;
-    padding: 10px;
-    width: 100px;
+.logo-wrapper {
+    position: relative;
+    left: 0px;
+    top:100px;
+    margin: 0px;  
+    padding: 0px;
+    width: 90%;
+    height: 700px;
+    overflow: hidden;
+    outline: solid 5px red;
 }
 
 .DatesWrapper {
