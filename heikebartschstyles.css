@@ -125,3 +125,45 @@
 .img-text-wrapper {
     align itmes: left;
 }
+.comments1 {
+    color: red;
+    font-family: "Orbitron";
+    position: relative;
+    font-size: 29px;
+    top: -390px;
+    left: 40;
+    z-index: 6;
+}
+
+.comments2 {
+    color: red;
+    font-family: "Orbitron";
+    position: relative;
+    font-size: 29px;
+    top: 70px;
+    left: 1150;
+    z-index: 6;
+}
+
+.contact1 {
+    color: red;
+    font-family: "Franklin Gothic";
+    position: relative;
+    font-size: 39px;
+    margin: 10px;
+    top: 210px;
+    left: 100;
+    z-index: 6;
+}
+
+.contact2 {
+    color: red;
+    font-family: "Franklin Gothic";
+    font-style: italic;
+    position: relative;
+    font-size: 39px;
+    margin:40px;
+    top: 20px;
+    left: 900;
+    z-index: 6;
+}
