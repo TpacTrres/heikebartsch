@@ -167,3 +167,24 @@
     left: 900;
     z-index: 6;
 }
+.impressumlink {
+    font-family: Playbill;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    text-decoration: none;
+    color: #FF0000;
+    letter-spacing: 10px;
+    font-size: 24px;
+    transition: color 2s;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.impressum {
+    padding:47px;
+    font-family: Playbill;
+    font-size: 70;
+    colour: red;
+
+}
