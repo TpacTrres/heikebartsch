@@ -150,7 +150,7 @@ body {
 }
 
 .contact1 {
-    color: red;
+    color: #4b006e;
     font-family: "Franklin Gothic";
     position: relative;
     font-size: 39px;
@@ -161,14 +161,14 @@ body {
 }
 
 .contact2 {
-    color: red;
+    color: #4b006e;
     font-family: "Franklin Gothic";
     font-style: italic;
     position: relative;
     font-size: 39px;
-    margin:40px;
-    top: 20px;
-    left: 1000;
+    margin:0px;
+    top: 70px;
+    left: 61%;
     z-index: 6;
 }
 .impressumlink {
