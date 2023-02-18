@@ -128,17 +128,17 @@ body {
 }
 .comments1 {
     color: red;
-    font-family: "Orbitron";
+    font-family: "";
     position: relative;
     font-size: 29px;
-    top: -390px;
+    top: 10px;
     left: 40;
     z-index: 6;
 }
 
 .comments2 {
     color: red;
-    font-family: "Orbitron";
+    font-family: "";
     position: relative;
     font-size: 29px;
     top: 70px;
