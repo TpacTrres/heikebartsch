@@ -74,11 +74,11 @@ body {
         transition: color 2s;
     }
 .nav-link-wrapper:hover {
-        border-bottom: 1px solid #021226;
+        border-bottom: 1px solid #4b006e;
 }
 .nav-link-wrapper a:hover {
         text-decoration: underline;
-        color:#021226
+        color:#4b006e;
 }
 
 .logo-wrapper {
