@@ -77,7 +77,7 @@
 }
 .nav-link-wrapper a:hover {
         text-decoration: underline;
-        color:#302825
+        color:#023261
 }
 
 .logo-wrapper {
@@ -164,7 +164,7 @@
     font-size: 39px;
     margin:40px;
     top: 20px;
-    left: 900;
+    left: 1000;
     z-index: 6;
 }
 .impressumlink {
