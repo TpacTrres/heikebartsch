@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0px;
     padding: 0px;
     color: #ff0000;
@@ -73,7 +73,7 @@
         transition: color 2s;
     }
 .nav-link-wrapper:hover {
-        border-bottom: 1px solid #302825;
+        border-bottom: 1px solid #021226;
 }
 .nav-link-wrapper a:hover {
         text-decoration: underline;
@@ -116,11 +116,11 @@
         transition: color 2s;
     }
     .home:hover {
-        border-bottom: 1px solid #FFFFFF;
+        border-bottom: 1px solid #021226;
     }
     .home a:hover {
         text-decoration: underline;
-        color: #FFFFFF;
+        color: #021226;
     }
 .img-text-wrapper {
     align itmes: left;
