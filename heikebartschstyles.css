@@ -61,37 +61,39 @@ body {
 
 .nav-link-wrapper {
     display: flex;
-    border-bottom: 14px solid transparent;
+    border-bottom: 22px solid transparent;
     transition: border-bottom 1s;
     height: 11px;
     width:150px;
 }
 .nav-link-wrapper a {
         text-decoration: none;
-        color: #FF0000;
+        color:  #4b006e;
         letter-spacing: 10px;
         font-size: 0.9em;
-        transition: color 2s;
+        transition: color 2s
     }
 .nav-link-wrapper:hover {
-        border-bottom: 1px solid #4b006e;
+        border-bottom: 9px solid #FF0000;
 }
 .nav-link-wrapper a:hover {
-        text-decoration: underline;
+        text-decoration: none;
         color:#4b006e;
 }
 
 .logo-wrapper {
     position: relative;
     left: 0px;
-    top:220px;
+    top:190px;
     margin: 0px;  
     padding: 0px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    outline: solid 17px red;
+    outline: solid 2px red;
 }
+
+.picture {
+    max-width: 100%;}
 
 .DatesWrapper {
     left: 200px;
