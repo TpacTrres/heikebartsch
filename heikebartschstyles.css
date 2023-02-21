@@ -20,7 +20,7 @@ body {
 }
 
 #background-video {
-    opacity: 0.9;
+    opacity: 1;
     display: flex;
     position: fixed;
     top: 0px;
@@ -84,7 +84,7 @@ body {
 .logo-wrapper {
     position: relative;
     left: 0px;
-    top:190px;
+    top:290px;
     margin: 0px;  
     padding: 0px;
     width: 100%;
