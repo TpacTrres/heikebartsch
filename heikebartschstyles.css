@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
-    left: 78.85%;
+    left: 78.85vw;
     top: 14px;
 }
 
@@ -87,7 +87,7 @@ body {
     top:38vh;
     margin: 0px;  
     padding: 0px;
-    width: 120vw;
+    width: 100vw;
     outline: solid 2px red;
 }
 
