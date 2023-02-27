@@ -52,11 +52,15 @@ body {
     position: sticky;
     padding: 0px;
     margin: 0px;
-    left: 18%;
-    top: 18%;
+    left: 45%;
+    top: 20vw;
     text-align: center;
-    width: 200px;
+    width: 80vw;
     font-family: "Berkshire Swash";
+}
+
+.signature {
+    max-width: 100%;
 }
 
 .nav-link-wrapper {
@@ -88,7 +92,8 @@ body {
     margin: 0px;  
     padding: 0px;
     width: 100vw;
-    outline: solid 2px red;
+    outline: solid 5px #4b006e;
+    z-index: -1;
 }
 
 .picture {
