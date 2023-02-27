@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100vw;
+    width: 120vw;
     background-color: #7ca2e4;
     height: 100px;
      overflow: hidden;
@@ -84,11 +84,10 @@ body {
 .logo-wrapper {
     position: relative;
     left: 0px;
-    top:190px;
+    top:38vh;
     margin: 0px;  
     padding: 0px;
-    width: 100vw;
-    height: 100%;
+    width: 120vw;
     outline: solid 2px red;
 }
 
