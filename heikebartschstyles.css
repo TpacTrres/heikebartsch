@@ -11,7 +11,7 @@ body {
     position: flex;
     top: 100px;
     width: 100w;
-    height: 100%;
+    width: 100%;
     border: solid 4px #4b006e;
     outline: solid 1px #4b006e;;
 }
