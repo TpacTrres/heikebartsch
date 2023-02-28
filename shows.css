@@ -1,0 +1,55 @@
+.home {
+
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    border-bottom: 14px solid transparent;
+    transition: border bottom 1s;
+    text-align: right;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    height: 11px;
+}
+    .home a {
+        text-decoration: none;
+        color: #ff0000;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+    .home:hover {
+        border-bottom: 1px solid #4b006e;
+    }
+    .home a:hover {
+        text-decoration: underline;
+        color: #4b006e;
+    }
+    
+    #background-video {
+    opacity: 0.9;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -4;
+    overflow: hidden;
+}
+
+.audioalign {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 94.85vw;
+    top: 14px;
+    width: 20px;
+}
+
+.DatesWrapper {
+    left: 200px;
+    font-family: 'Franklin Gothic';
+    margin: 200px;
+    font-size: 100px;
+}
