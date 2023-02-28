@@ -7,27 +7,36 @@ body {
     font-size: 20px;
     background-color: #FFFF00;
 }
+.totalframe {
+    position: flex;
+    top: 100px;
+    width: 100w;
+    height: 100%;
+    border: solid 4px #4b006e;
+    outline: solid 1px #4b006e;;
+}
+
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 120vw;
+    width: 100vw;
     background-color: #7ca2e4;
     height: 100px;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 #background-video {
     opacity: 0.9;
     display: flex;
     position: fixed;
+    height: 100%;
     top: 0px;
     left: 0px;
-    width: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: -4;
     overflow: hidden;
 }
 
@@ -35,28 +44,30 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
-    left: 78.85vw;
+    left: 94.85vw;
     top: 14px;
+    width: 20px;
 }
 
 .nav-wrapper {
     display: flex;
     position: fixed;
-    top: 20px;
+    top: 30px;
     left: 20px;
     justify-content: space-between;
-    width: 600px;
+    width: 52vw;
 }
 
 .right-side {
     position: sticky;
     padding: 0px;
     margin: 0px;
-    left: 45%;
-    top: 20vw;
+    left: 47vw;
+    top: 10vw;
     text-align: center;
     width: 80vw;
     font-family: "Berkshire Swash";
+    z-index: -1;
 }
 
 .signature {
@@ -91,13 +102,17 @@ body {
     top:38vh;
     margin: 0px;  
     padding: 0px;
-    width: 100vw;
+    width: 97,5vw;
     outline: solid 5px #4b006e;
     z-index: -1;
+    background-color: #4b006e;
 }
 
 .picture {
-    max-width: 100%;}
+    max-width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
 
 .DatesWrapper {
     left: 200px;
@@ -136,7 +151,7 @@ body {
     align itmes: left;
 }
 .comments1 {
-    color: red;
+    color: transparent;
     font-family: "";
     position: relative;
     font-size: 29px;
@@ -146,7 +161,7 @@ body {
 }
 
 .comments2 {
-    color: red;
+    color: transparent;
     font-family: "";
     position: relative;
     font-size: 29px;
@@ -156,34 +171,34 @@ body {
 }
 
 .contact1 {
-    color: #4b006e;
     font-family: "Franklin Gothic";
     position: relative;
     font-size: 39px;
     margin: 10px;
-    top: 210px;
+    top: 232px;
     left: 100;
     z-index: 6;
 }
 
 .contact2 {
-    color: #4b006e;
     font-family: "Franklin Gothic";
     font-style: italic;
     position: relative;
     font-size: 39px;
     margin:0px;
     top: 70px;
-    left: 61%;
+    left: 47vw;
     z-index: 6;
 }
 .impressumlink {
+    background-color: #4b006e;
     font-family: Playbill;
     position: relative;
+    width: 100vw;
     top: 60px;
-    left: 10px;
+    left: -1vw;
     text-decoration: none;
-    color: #FF0000;
+    color: white;
     letter-spacing: 10px;
     font-size: 24px;
     transition: color 2s;
@@ -193,8 +208,7 @@ body {
 
 .impressum {
     padding:47px;
-    font-family: Playbill;
     font-size: 70;
-    colour: red;
+    color: white;
 
 }
