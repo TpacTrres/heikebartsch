@@ -212,3 +212,74 @@ body {
     color: white;
 
 }
+
+
+
+
+
+
+/*/ styles for Prisoner Page/*/
+#prisoner {
+    color: #39FF14;
+}
+
+.prisonerBanner {
+    position: sticky;
+    width: 98vw;
+    height: 5vh;
+    left: 0px;
+    top: 10px;
+    font-size: 10.8em;
+    font-family: "Berkshire Swash";
+    color: #39FF14;
+}
+#prisonercenterimg {
+    max-width: 98%;
+}
+
+.frameprisoner {
+    border: solid 20px #39FF14;
+    position: static;
+    width: 98vw;
+    height: 100%;
+}
+
+.centerprisoner {
+    position: relative;
+    padding: 10px;
+    top: 10vw;
+    left: 17vw;
+    width: 57%;
+    z-index: -2;
+}
+.prisoner {
+    line-height: 120px;
+    position: flex;
+    text-decoration: none;
+    display: flex;
+    border-right: 28vw solid transparent;
+    transition: border-right 1s;
+    height: 11vh;
+    width: 0vw;
+    top: 70vh;
+    left: 70vw;
+    bottom: 100vh;
+    font-family: "Orbitron";
+    font-size: 4.1em;
+}
+    .prisoner a {
+        text-decoration: none;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+
+    .prisoner:hover {
+        border-right: 1px solid #39FF14;
+    }
+
+    .prisoner a:hover {
+        text-decoration: none;
+        color: #302825
+    }
+
