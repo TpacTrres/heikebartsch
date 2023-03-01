@@ -9,7 +9,7 @@
 }
 
 .home {
-
+    font-family: "orbitron";
     font-size: 25px;
     display: flex;
     position: relative;
@@ -58,6 +58,7 @@
 }
 
 .DatesWrapper {
+    color; red;
     left: 200px;
     font-family: 'Franklin Gothic';
     margin: 200px;
