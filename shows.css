@@ -1,3 +1,13 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+    font-family: "Orbitron", 'Franklin Gothic';
+    font-style: italic;
+    font-size: 20px;
+    background-color: #FFFF00;
+}
+
 .home {
 
     font-size: 25px;
