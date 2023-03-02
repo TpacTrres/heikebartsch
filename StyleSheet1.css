@@ -1,0 +1,281 @@
+﻿html { height: -webkit-fill-available;
+       height: 100%;
+}
+
+
+body {
+    border-bottom: solid 20px #4b006e;
+    border-left: solid 10px #4b006e;
+    border-right: solid 10px #4b006e;
+    border-top: solid 10px #4b006e;
+    outline: solid 10px #4b006e;
+    position: static;
+    height: auto;
+    background-color: yellow;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    background-color: #7ca2e4;
+    height: 100px;
+    overflow: hidden;
+}
+
+#background-video {
+    opacity: 0.9;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-height: 100%;
+    position: absolute;
+    z-index: -4;
+    overflow: hidden;
+}
+
+.audioalign {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 94.85vw;
+    bottom: 14px;
+    width: 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    justify-content: space-between;
+    width: 1000vw;
+    z-index: 2;
+}
+
+.right-side {
+    position: sticky;
+    padding: 0px;
+    margin: 0px;
+    left: 47vw;
+    top: 10vw;
+    text-align: center;
+    width: 80vw;
+    font-family: "Berkshire Swash";
+    z-index: -1;
+}
+
+.signature {
+    max-width: 100%;
+}
+
+.nav-link-wrapper {
+    display: flex;
+    border-bottom: 22px solid transparent;
+    transition: border-bottom 1s;
+    height: 11px;
+    width: 1vw;
+}
+
+    .nav-link-wrapper a {
+        text-decoration: none;
+        color: #4b006e;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s
+    }
+
+    .nav-link-wrapper:hover {
+        border-bottom: 9px solid #FF0000;
+    }
+
+    .nav-link-wrapper a:hover {
+        text-decoration: none;
+        color: #4b006e;
+    }
+
+.logo-wrapper {
+    position: relative;
+    left: 0px;
+    top: 18vh;
+    width: 100;
+    outline: solid 5px #4b006e;
+    z-index: -1;
+    background-color: #4b006e;
+}
+
+.picture {
+    max-width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.home {
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    border-bottom: 14px solid transparent;
+    transition: border bottom 1s;
+    text-align: right;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    height: 11px;
+}
+
+    .home a {
+        text-decoration: none;
+        color: #ff0000;
+        letter-spacing: 10px;
+        font-size: 0.9em;
+        transition: color 2s;
+    }
+
+    .home:hover {
+        border-bottom: 1px solid #4b006e;
+    }
+
+    .home a:hover {
+        text-decoration: underline;
+        color: #4b006e;
+    }
+
+.img-text-wrapper {
+    align itmes: left;
+}
+
+.comments1 {
+    color: transparent;
+    font-family: "";
+    position: relative;
+    font-size: 29px;
+    top: 10px;
+    left: 40;
+    z-index: 6;
+}
+
+.comments2 {
+    color: transparent;
+    font-family: "";
+    position: fixed;
+    font-size: 29px;
+    bottom: 70px;
+    left: 1150;
+    z-index: 6;
+}
+
+.contact {
+    color: red;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    align-items: space-between;
+    background-color: yellow;
+    height: 12vh;
+    outline: solid 4px #4b006e;
+}
+.contact1 {
+    font-family: "Franklin Gothic";
+    position: static;
+    font-size: 1em;
+    z-index: 6;
+}
+#alreadylikeus {
+    position: relative;
+    top: 0vh;
+    max-width: 80%;
+}
+
+.contact2 {
+    font-family: "Franklin Gothic";
+    font-style: italic;
+    position: static;
+    font-size: 1em;
+    z-index: 6;
+}
+#contactus {
+    position: relative;
+    top: 6vh;
+    left: -9vw;
+    max-width: 80%;
+}
+
+.impressumlink {
+    position: static;
+    margin-top: auto;
+    background-color: #4b006e;
+    font-family: Playbill;
+    font-size: 4em;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.impressum {
+    padding: 47px;
+    font-size: 70;
+    color: white;
+}
+#contacrow  {
+    max-height: 4vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 1vh;
+        bottom: 100vh;
+        left: 30px;
+        justify-content: space-evenly;
+        width: 52vw;
+        height: 89vh;
+        font-family: "Orbitron";
+        bottom: 20vh;
+    }
+    .nav-link-wrapper {
+        text-shadow: 1px 0px 2px red;
+    }
+
+    .signature {
+        position: static;
+    }
+
+    .logo-wrapper {
+        position: relative;
+        left: 0px;
+        top: 11vh;
+        width: 100;
+        height: 70vh;
+        z-index: -1;
+        background-color: #4b006e;
+    }
+
+    .picture {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .picture1 {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 4;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .impressumlink {
+        background-color: red;
+    }
+
+    #background-video {
+        max-width: 100%;
+    }
+}
