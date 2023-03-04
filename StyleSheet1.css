@@ -274,12 +274,13 @@ body {
 }
 
 @media screen and (min-width: 1001px) {
+       
+       #background-video {              
     .logo-wrapper {
         position: relative;
         left: 0px;
         top: 34vh;
-        width: 100;
-        height: 70vh;
+        width: 100vw;
         z-index: -1;
         background-color: #4b006e;
     }
