@@ -198,6 +198,17 @@ body {
     transition: color 2s;
     padding: 20px;
     text-decoration: none;
+    font-family: "orbitron";
+    font-size: 1.7em;
+}
+
+.impressumlink a {
+    text-decoration: none;
+    color: white;
+}
+
+.impressumlink a:hover {
+    color: yellow;
 }
 
 .impressum {
