@@ -213,14 +213,24 @@ body {
     color: white;
     height: 150px;
     width: 100%;
+    font-family: "orbitron";
+    font-size: 1.7em;
+}
+
+.impressumlink a {
     text-decoration: none;
+    color: white;
+}
+
+.impressumlink a:hover {
+    color: yellow;
 }
 
 .impressum {
-    margin-top: auto;
-    padding: 47px;
+    padding:47px;
     font-size: 70;
     color: white;
+
 }
 #contacrow  {
     max-height: 4vh;
