@@ -33,7 +33,7 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    min-width: 100%;
+    max-width: 100%;
     position: absolute;
     z-index: -4;
     overflow: hidden;
@@ -104,7 +104,7 @@ body {
     position: relative;
     left: 0px;
     top: 18vh;
-    width: 100vw;
+    width: 100%;
     outline: solid 5px #4b006e;
     z-index: -1;
     background-color: #4b006e;
