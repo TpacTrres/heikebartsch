@@ -216,16 +216,23 @@ body {
     max-width: 80%;
 }
 
+.impressum {
+
+    border-top: solid #4b006e 90px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
 .impressumlink {
-    position: static;
     background-color: #4b006e;
     font-family: Arial;
-    font-size: 4em;
+    font-size: 1.2em;
     color: white;
-    height: 150px;
+    height: 70px;
     width: 100%;
     font-family: "orbitron";
-    font-size: 1.7em;
 }
 
 .impressumlink a {
@@ -237,12 +244,6 @@ body {
     color: yellow;
 }
 
-.impressum {
-    padding:47px;
-    font-size: 70;
-    color: white;
-
-}
 #contacrow  {
     max-height: 4vh;
 }
