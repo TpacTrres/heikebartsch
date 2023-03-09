@@ -34,6 +34,7 @@ body {
     top: 0px;
     left: 0px;
     max-width: 100%;
+       min-width: 99%
     position: absolute;
     z-index: -4;
     overflow: hidden;
