@@ -41,16 +41,13 @@ body {
 }
 
 #background-video2 {
-    opacity: 0.6;
+    opacity: 0.7;
     display: flex;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    max-width: 100%;
-       min-width: 99%
+    top: 12.5%;
+    left: 8%;
+    max-width: 45%;
     position: absolute;
     z-index: -4;
-    overflow: hidden;
 }
 
 .audioalign {
