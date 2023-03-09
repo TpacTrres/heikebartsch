@@ -40,6 +40,19 @@ body {
     overflow: hidden;
 }
 
+#background-video2 {
+    opacity: 0.6;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+       min-width: 99%
+    position: absolute;
+    z-index: -4;
+    overflow: hidden;
+}
+
 .audioalign {
     display: flex;
     justify-content: center;
