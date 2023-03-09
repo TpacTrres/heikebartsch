@@ -115,7 +115,7 @@ body {
     position: relative;
     left: 0px;
     top: 18vh;
-    width: 100%;
+    max-width: 100%;
     outline: solid 5px #4b006e;
     z-index: -1;
     background-color: #4b006e;
