@@ -1,0 +1,63 @@
+﻿body
+{ 
+}
+
+header {
+    font-family: "Berkshire Swash";
+    top: 100px;
+    font-size: 4em;
+    color: red;
+}
+
+.venuepic {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+#Kikisol {
+    poisition: absolute;
+}
+.lineupheader { font-family: "Berkshire Swash";
+                display: flex;
+                justify-content center
+
+}
+
+.lineup {
+    font-family:"orbitron", 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.lineup-wrapper { 
+    display: flex;
+    flex-direction: column;
+
+}
+.lineup-wrapper a {
+    text-decoration: none;
+    color: red;
+}
+
+.lineup-wrapper a:hover {
+    text-decoration: none;
+    font-style: italic;
+    color: #4b006e;
+}
+.times-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adress_venue { 
+    padding: 50px;
+    position: relative;
+    max-width: 85vw;
+    top: -4vh;
+    left: 4vw;
+    difont-size:1em;
+
+}
