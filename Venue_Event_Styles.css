@@ -21,7 +21,7 @@ header {
     poisition: absolute;
     object-fit: cover;
     border: solid 10px red;
-      max-width: 100%;
+     max-width: 100%;
 }
 .lineupheader { font-family: "Berkshire Swash";
                 display: flex;
