@@ -1,5 +1,6 @@
 body
-{ 
+{ margin: 10px;
+ outline: solid 12px red
 }
 
 header {
@@ -13,13 +14,14 @@ header {
     display: flex;
     justify-content: center;
     margin: 100px;
-    width: 70vw;
+    width: 80vw;
 
 }
 #Kikisol {
     poisition: absolute;
     object-fit: cover;
     border: solid 10px red;
+      max-width: 100%;
 }
 .lineupheader { font-family: "Berkshire Swash";
                 display: flex;
