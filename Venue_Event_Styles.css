@@ -1,4 +1,4 @@
-﻿body
+body
 { 
 }
 
@@ -6,20 +6,24 @@ header {
     font-family: "Berkshire Swash";
     top: 100px;
     font-size: 4em;
-    color: red;
+    color: #4b006e;
 }
 
 .venuepic {
     display: flex;
     justify-content: center;
     margin: 100px;
+    width: 70vw;
+
 }
 #Kikisol {
     poisition: absolute;
+    object-fit: cover;
+    border: solid 10px red;
 }
 .lineupheader { font-family: "Berkshire Swash";
                 display: flex;
-                justify-content center
+                color: red;
 
 }
 
@@ -49,10 +53,12 @@ header {
 .times-wrapper {
     display: flex;
     flex-direction: column;
+    color: red;
 
 }
 
 .adress_venue { 
+    color: #4b006e;
     padding: 50px;
     position: relative;
     max-width: 85vw;
