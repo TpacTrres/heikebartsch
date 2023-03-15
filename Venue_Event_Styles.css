@@ -4,7 +4,7 @@ body
 }
 
 header {
-    font-family: "Berkshire Swash";
+    font-family: "Franklin Gothic";
     top: 100px;
     font-size: 4em;
     color: #4b006e;
@@ -23,7 +23,7 @@ header {
     border: solid 10px red;
      max-width: 100%;
 }
-.lineupheader { font-family: "Berkshire Swash";
+.lineupheader { font-family: "Franklin Gothic";
                 display: flex;
                 color: red;
 
