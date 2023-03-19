@@ -27,30 +27,26 @@
 
         <div class="times-wrapper">
 
-            <div>19</div>
-            <div>21</div>
-            <div>22</div>
-            <div>23.00 </div>
-            <div>00</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
 
         </div>
 
         <div class="lineup-wrapper">
 
             <a href="gerber"> Doors</a>
-            <a href="soso0">Lemn0grass</a>
-            <a href="https://heikebartsch.bandcamp.com/"> Heike Bartsch</a>
-            <a href="">Band 3</a>
-            <a href="https://soundcloud.com/wurstfachmann"> close suppose </a>
+            <a href="https://lemon-grab.bandcamp.com/album/the-wet-album">HEIKE BARTSCH</a>
+            <a href="https://heikebartsch.bandcamp.com/">LEMONGRAB</a>
+            <a href="https://cava.bandcamp.com/album/cava">CAVA</a>
 
         </div>
     </div>
 
     <div class="adress_venue">
         °LIVE
-
-        Reinickendorfer Straße 96
-        13347 Berlin
     </div>
 
 </body>
