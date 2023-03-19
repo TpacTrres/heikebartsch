@@ -15,10 +15,10 @@
 
 <body style=background-color:#FFFF00>
 
-    <header>Kikisol 18.03.</headerstyle>
+    <header>Gerber 02/04/ </headerstyle>
 
         <div class="venuepic">
-    <img id="Kikisol" src="Kiki-Sol.jpg" </img>
+    <img id="venue1" src=" " </img>
         </div>
 
     <div class="lineupheader"> Line_Up! </div>
@@ -27,21 +27,21 @@
 
         <div class="times-wrapper">
 
-            <div>20.00</div>
-            <div>21.00</div>
-            <div>22.00</div>
+            <div>19</div>
+            <div>21</div>
+            <div>22</div>
             <div>23.00 </div>
-            <div>1.00 </div>
+            <div>00</div>
 
         </div>
 
         <div class="lineup-wrapper">
 
-            <a href="http://www.kikisol-family.de/Wedding.html"> Doors</a>
-            <a href="soso0">Opener</a>
+            <a href="gerber"> Doors</a>
+            <a href="soso0">Lemn0grass</a>
             <a href="https://heikebartsch.bandcamp.com/"> Heike Bartsch</a>
-            <a href="">Hell.No</a>
-            <a href="https://soundcloud.com/wurstfachmann"> Gallager </a>
+            <a href="">Band 3</a>
+            <a href="https://soundcloud.com/wurstfachmann"> close suppose </a>
 
         </div>
     </div>
